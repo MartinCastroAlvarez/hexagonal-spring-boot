@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    padding: 10px 0;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
