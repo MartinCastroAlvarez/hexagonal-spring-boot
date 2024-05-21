@@ -5,7 +5,7 @@ Hexagonal Architecture on Java Spring Boot for managing an e-commerce, and React
 
 ## What the demos!
 
-- [User Management Deo](user%20management.mov)
+- [User Management Demo](user%20management.mov)
 - [Product Management Demo](product%20management.mov)
 - [Time Management Demo](time%20management.mov)
 - [Email Management Demo](message%20management.mov)
