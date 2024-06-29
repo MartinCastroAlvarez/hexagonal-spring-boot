@@ -346,6 +346,7 @@ export const HexMessageDetailsForm = ({
         {!message.sentAt && <HexButton text="Send" onClick={() => { onSend(parseInt(message.id)); navigate(PATHS.MESSAGES) }} /> }
         <HexButton icon={faUserPlus} text="Add Recipient" onClick={() => navigate(PATHS.ADD_RECIPIENT.replace(':id', message.id))} />
         {message.isActive && <HexButton text="Deactivate" onClick={async () => { await onDelete(parseInt(message.id)); navigate(PATHS.MESSAGES) }} />}
+          <HexButton text="Delete" icon={faPlus} onClick={async () => { await onDelete(parseInt(message.id)); navigate(PATHS.MESSAGES) }} />
       </HexToolbar>
     </HexForm>
   )
